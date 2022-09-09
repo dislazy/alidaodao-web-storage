@@ -6,7 +6,7 @@ package com.alidaodao.web;
  */
 public class hello {
     /**
-     * hello-world
+     * hello-world 初始化项目文件
      *
      * @param args
      */
