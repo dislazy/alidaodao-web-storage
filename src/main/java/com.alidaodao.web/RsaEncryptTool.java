@@ -55,7 +55,6 @@ public class RsaEncryptTool {
             return encryptMessage;
         } catch (InvalidKeyException | InvalidKeySpecException | NoSuchAlgorithmException | NoSuchPaddingException
                 | IllegalBlockSizeException | BadPaddingException | IOException e) {
-            log.error("使用公钥对数据加密异常", e);
         }
         return null;
     }
