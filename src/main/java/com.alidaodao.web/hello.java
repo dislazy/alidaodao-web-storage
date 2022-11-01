@@ -21,5 +21,8 @@ public class hello {
         }
         StreamUtils.distinctByKeys(e->e.equals(1));
 
+
+        TotpTool.main(new String[]{"1"});
+
     }
 }
