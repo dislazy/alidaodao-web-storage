@@ -55,8 +55,8 @@ public class RsaEncryptTool {
             return encryptMessage;
         } catch (InvalidKeyException | InvalidKeySpecException | NoSuchAlgorithmException | NoSuchPaddingException
                 | IllegalBlockSizeException | BadPaddingException | IOException e) {
+            throw new RuntimeException("error");
         }
-        return null;
     }
 
     /**
@@ -98,7 +98,7 @@ public class RsaEncryptTool {
             return new String(bos.toByteArray(), "UTF-8");
         } catch (InvalidKeyException | InvalidKeySpecException | NoSuchAlgorithmException
                 | NoSuchPaddingException | IllegalBlockSizeException | BadPaddingException | IOException e) {
+            throw new RuntimeException();
         }
-        return null;
     }
 }
