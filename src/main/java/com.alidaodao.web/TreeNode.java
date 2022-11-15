@@ -12,7 +12,6 @@ public class TreeNode<T extends TreeNode> {
     private String pid;
     private String name;
     private List<T> children = new ArrayList<>();
-    private Boolean disabled = false;
 
     public TreeNode(String id, String pid, String name) {
         this.id = id;
