@@ -14,9 +14,16 @@ import junit.framework.TestCase;
 public class PasswordUtilTest extends TestCase {
 
     public void testCheckPassword() {
+        PasswordUtil.checkPassword("1123434");
     }
 
     public void testGetSalt() {
+        try {
+            PasswordUtil.getSalt();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+
     }
 
     public void testGetStaticSalt() {
