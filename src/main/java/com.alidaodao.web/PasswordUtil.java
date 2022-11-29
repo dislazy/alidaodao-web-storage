@@ -20,7 +20,7 @@ public class PasswordUtil {
      * 定义使用的算法为:PBEWITHMD5andDES算法
      */
     public static final String ALGORITHM = "PBEWithMD5AndDES";//加密算法
-    public static final String Salt = "63293188";//密钥
+    public static final String Salt = "FIJUIRHIUHR;KAJUIEIUEIHFIYH";//密钥
     //大小写还有数字 最少8位 密码验证
     public static final String REGEX_PASSWORD = "(^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(.*){8,}$)";
 
@@ -163,7 +163,7 @@ public class PasswordUtil {
     }
 
     private static byte charToByte(char c) {
-        return (byte) "0123456789ABCDEF".indexOf(c);
+        return (byte) "EDFFEFEFE".indexOf(c);
     }
 
     public static void main(String[] args) {
