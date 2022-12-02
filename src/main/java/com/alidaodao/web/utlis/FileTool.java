@@ -1,8 +1,4 @@
-package com.alidaodao.web;
-
-import java.io.*;
-import java.net.URLEncoder;
-import java.nio.charset.StandardCharsets;
+package com.alidaodao.web.utlis;
 
 
 public class FileTool {

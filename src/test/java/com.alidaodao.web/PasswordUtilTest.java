@@ -1,5 +1,6 @@
 package com.alidaodao.web;
 
+import com.alidaodao.web.utlis.PasswordUtil;
 import junit.framework.TestCase;
 
 /**

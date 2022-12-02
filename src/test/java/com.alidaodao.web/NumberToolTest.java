@@ -1,5 +1,6 @@
 package com.alidaodao.web;
 
+import com.alidaodao.web.utlis.NumberTool;
 import junit.framework.TestCase;
 
 /**

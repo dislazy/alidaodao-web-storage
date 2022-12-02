@@ -1,5 +1,6 @@
 package com.alidaodao.web;
 
+import com.alidaodao.web.utlis.ClazzUtil;
 import junit.framework.TestCase;
 
 /**
